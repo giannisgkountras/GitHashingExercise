@@ -7,7 +7,18 @@ This is the 4th quiz of the course Operating Systems, its purpose being git trai
 In order to run the script use
 
 ```
-$ bash hash_script "your_string_here"
+bash hash_script "your_string_here"
+```
+
+or alternatively
+
+1) Give executing rights to the script:
+```
+chmod +x hash_script
+```
+2) Run it with
+```
+./hash_script
 ```
 
 ## How the script works
