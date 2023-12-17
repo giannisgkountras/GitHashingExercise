@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Check if the user provided a string
+if [ -z "$1" ]; then
+    echo "Usage: $0 <string>"
+    exit 1
+fi
+
+# Get the input string
+input_string="$1"
+
+# Generate the SHA-256 hash
+hashed_value=$(echo -n "$input_string" | sha256sum | awk '{print $1}')
+
+# Print the hashed value
+echo "Hashed value of '$input_string': $hashed_value"

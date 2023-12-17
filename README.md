@@ -5,7 +5,7 @@ This is the 4th quiz of the course Operating Systems, its purpose being git trai
 ## How to run the script
 
 In order to run the script use
-```bash hash_script```
+```bash hash_script "your_string_here"```
 
 ## How the script works
 
